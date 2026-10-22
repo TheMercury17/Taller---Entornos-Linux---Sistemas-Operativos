@@ -1,0 +1,93 @@
+Estudiantes: ANDRÉS SEBASTIÁN CORAL VALLEJO, JUAN ORJUELA, JAVIER ROSERO, ANGEL ARCOS
+================================================================================
+>>> INICIANDO BENCHMARK PARA EL ENTORNO: XFCE
+Timestamp: 2026-10-22 18:07:06
+================================================================================
+
+--- [1] ESTADO DEL SISTEMA EN REPOSO ---
+Memoria Total:       2974 MB
+Memoria Usada:       612 MB
+Memoria Libre:       500 MB
+Memoria Disponible:  2361 MB
+Swap Usado:          7 MB
+Procesos Activos:    178
+Carga Media (1,5,15m): 1.86 3.22 3.35
+
+--- [2] INFORMACIÓN DEL ENTORNO DE ESCRITORIO (FASTFETCH) ---
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+..............                                      kali@kali
+            ..,;:ccc,.                              ---------
+          ......''';lxO.                            OS: Kali GNU/Linux Rolling x86_64
+.....''''..........,:ld;                            Host: VirtualBox (1.2)
+           .';;;:::;,,.x,                           Kernel: Linux 6.19.14+kali-amd64
+      ..'''.            0Xxoc:,.  ...               Uptime: 39 mins
+  ....                ,ONkc;,;cokOdc',.             Packages: 3287 (dpkg)
+ .                   OMo           ':ddo.           Shell: bash 5.3.9
+                    dMc               :OO;          Display (Virtual-1): 1920x1043, 60 Hz
+                    0M.                 .:o.        Theme: Fusion [Qt], Kali-Dark [GTK2/3/4]
+                    ;Wd                             Icons: Flat-Remix-Blue-Dark [Qt], Flat-Remix-Blue-Dark [GTK2/3/4]
+                     ;XO,                           Font: Cantarell (11pt) [GTK2/3/4]
+                       ,d0Odlc;,..                  Cursor: Adwaita (24px)
+                           ..',;:cdOOd::,.          Terminal: VBoxService
+                                    .:d;.':;.       CPU: AMD Ryzen 7 260 (2) @ 3.79 GHz
+                                       'd,  .'      GPU: VMware SVGA II Adapter [Integrated]
+                                         ;l   ..    Memory: 612.99 MiB / 2.90 GiB (21%)
+                                          .o        Swap: 7.08 MiB / 953.67 MiB (1%)
+                                            c       Disk (/): 20.07 GiB / 78.28 GiB (26%) - ext4
+                                            .'      Local IP (eth0): 10.0.2.15/24
+                                             .      Battery (1): 46% [Discharging]
+                                                    Locale: en_US.UTF-8
+                                                    
+                                                    [40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+                                                    [100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+
+--- [3] BENCHMARK DE CPU (SYSBENCH PRIMES 20000 - 2 THREADS) ---
+sysbench 1.0.20 (using system LuaJIT 2.1.1761786044)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  1546.41
+
+General statistics:
+    total time:                          10.0226s
+    total number of events:              15501
+
+Latency (ms):
+         min:                                    0.59
+         avg:                                    1.29
+         max:                                   12.55
+         95th percentile:                        1.82
+         sum:                                19974.30
+
+Threads fairness:
+    events (avg/stddev):           7750.5000/10.50
+    execution time (avg/stddev):   9.9872/0.00
+
+--- [4] INFORMACIÓN DE ACELERACIÓN GRÁFICA (MESA OPENGL) ---
+Authorization required, but no authorization protocol specified
+
+Error: unable to open display :0
+
+--- [5] BENCHMARK DE GPU (GLMARK2 SCENES: BUILD, TEXTURE, TERRAIN) ---
+Authorization required, but no authorization protocol specified
+
+Error: main: Could not initialize canvas
+
+================================================================================
+>>> BENCHMARK COMPLETADO EXITOSAMENTE PARA: XFCE
+Puntaje Glmark2: 0 | FPS Promedio: 0 | Sysbench Events/s: 1546.41 | RAM Usada: 612 MB
+Estudiantes: ANDRÉS SEBASTIÁN CORAL VALLEJO, JUAN ORJUELA, JAVIER ROSERO, ANGEL ARCOS
+================================================================================

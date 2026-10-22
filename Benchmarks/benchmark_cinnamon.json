@@ -1,0 +1,34 @@
+{
+  "desktop_environment": "Cinnamon",
+  "timestamp": "2026-10-22T22:09:47Z",
+  "ram_total_mb": 2974,
+  "ram_used_mb": 952,
+  "ram_free_mb": 120,
+  "ram_avail_mb": 2021,
+  "swap_used_mb": 7,
+  "process_count": 217,
+  "load_avg": "6.81 4.65 3.86",
+  "cpu_benchmark": {
+    "tool": "sysbench cpu",
+    "params": "max-prime=20000 threads=2",
+    "events_per_sec": 1495.7,
+    "total_time_sec": 10.0287,
+    "latency_min_ms": 0.59,
+    "latency_avg_ms": 1.32,
+    "latency_max_ms": 29.15,
+    "latency_95_ms": 1.82
+  },
+  "gpu_benchmark": {
+    "tool": "glmark2",
+    "renderer": "llvmpipe (LLVM 21.1.8, 256 bits)",
+    "vendor": "Mesa",
+    "opengl_version": "4.5 (Core Profile) Mesa 26.0.8-1",
+    "glmark2_score": 212,
+    "avg_fps": 213.0,
+    "scenes": {
+      "build_fps": "279",
+      "texture_fps": "357",
+      "terrain_fps": "3"
+    }
+  }
+}

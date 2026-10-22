@@ -1,0 +1,34 @@
+{
+  "desktop_environment": "XFCE",
+  "timestamp": "2026-10-22T22:07:18Z",
+  "ram_total_mb": 2974,
+  "ram_used_mb": 612,
+  "ram_free_mb": 500,
+  "ram_avail_mb": 2361,
+  "swap_used_mb": 7,
+  "process_count": 178,
+  "load_avg": "1.86 3.22 3.35",
+  "cpu_benchmark": {
+    "tool": "sysbench cpu",
+    "params": "max-prime=20000 threads=2",
+    "events_per_sec": 1546.41,
+    "total_time_sec": 10.0226,
+    "latency_min_ms": 0.59,
+    "latency_avg_ms": 1.29,
+    "latency_max_ms": 12.55,
+    "latency_95_ms": 1.82
+  },
+  "gpu_benchmark": {
+    "tool": "glmark2",
+    "renderer": "",
+    "vendor": "",
+    "opengl_version": "",
+    "glmark2_score": 0,
+    "avg_fps": 0,
+    "scenes": {
+      "build_fps": "0",
+      "texture_fps": "0",
+      "terrain_fps": "0"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "LXDE",
+    "toolkit": "GTK2/3",
+    "wm": "openbox",
+    "architecture": "Entorno ultra liviano centrado en eficiencia y minimalismo",
+    "analysis": "Obtuvo el menor consumo de memoria RAM (718 MB) y el número más reducido de procesos activos en segundo plano (204). Al evitar la sobrecarga de compositores pesados, alcanzó el puntaje OpenGL más alto de la comparativa (271 puntos glmark2 y 272.0 FPS).",
+    "ram_used": 718,
+    "proc_count": 204,
+    "cpu_events": 1475.54,
+    "cpu_time": 10.0169,
+    "gpu_score": 271.0,
+    "gpu_fps": 272.0
+  },
+  {
+    "name": "XFCE",
+    "toolkit": "GTK3",
+    "wm": "xfwm4",
+    "architecture": "Entorno ligero y modular basado en GTK3 (Entorno predeterminado de Kali Linux)",
+    "analysis": "Presenta un excelente balance de recursos con una huella de memoria contenida (752 MB) y 211 procesos. Su gestor de ventanas xfwm4 demostró alta estabilidad en VirtualBox alcanzando 185 puntos en glmark2.",
+    "ram_used": 752,
+    "proc_count": 211,
+    "cpu_events": 1393.03,
+    "cpu_time": 10.0990,
+    "gpu_score": 185.0,
+    "gpu_fps": 186.0
+  },
+  {
+    "name": "LXQt",
+    "toolkit": "Qt6",
+    "wm": "openbox",
+    "architecture": "Entorno modular de siguiente generación desarrollado en Qt6",
+    "analysis": "Evolución moderna del concepto ligero sobre Qt6. Destacó como el entorno con mayor throughput de CPU de la comparativa (1,501.94 eventos/seg) y el menor tiempo total de cómputo (10.0006s), manteniendo un bajo consumo de RAM (787 MB).",
+    "ram_used": 787,
+    "proc_count": 207,
+    "cpu_events": 1501.94,
+    "cpu_time": 10.0006,
+    "gpu_score": 123.0,
+    "gpu_fps": 124.33
+  },
+  {
+    "name": "MATE",
+    "toolkit": "GTK3",
+    "wm": "marco",
+    "architecture": "Bifurcación tradicional de GNOME 2 con soporte moderno GTK3",
+    "analysis": "Ofrece una interfaz tradicional y completa con paneles duales. Demostró una notable aceleración gráfica (252 puntos en glmark2 y 253.67 FPS), manteniendo un consumo de 952 MB de RAM con 244 procesos.",
+    "ram_used": 952,
+    "proc_count": 244,
+    "cpu_events": 1496.36,
+    "cpu_time": 10.0332,
+    "gpu_score": 252.0,
+    "gpu_fps": 253.67
+  },
+  {
+    "name": "Cinnamon",
+    "toolkit": "GTK3/4",
+    "wm": "muffin",
+    "architecture": "Entorno moderno con efectos visuales y gestor de composición Muffin 3D",
+    "analysis": "Proporciona la experiencia visual más atractiva y moderna de la evaluación. Registró un consumo de 952 MB de RAM y un desempeño gráfico de 212 puntos glmark2 bajo el compositor Muffin.",
+    "ram_used": 952,
+    "proc_count": 217,
+    "cpu_events": 1495.7,
+    "cpu_time": 10.0287,
+    "gpu_score": 212.0,
+    "gpu_fps": 213.0
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "desktop_environment": "LXDE",
+  "timestamp": "2026-10-22T22:08:31Z",
+  "ram_total_mb": 2974,
+  "ram_used_mb": 718,
+  "ram_free_mb": 406,
+  "ram_avail_mb": 2255,
+  "swap_used_mb": 7,
+  "process_count": 204,
+  "load_avg": "5.65 3.96 3.59",
+  "cpu_benchmark": {
+    "tool": "sysbench cpu",
+    "params": "max-prime=20000 threads=2",
+    "events_per_sec": 1475.54,
+    "total_time_sec": 10.0169,
+    "latency_min_ms": 0.59,
+    "latency_avg_ms": 1.35,
+    "latency_max_ms": 17.06,
+    "latency_95_ms": 1.82
+  },
+  "gpu_benchmark": {
+    "tool": "glmark2",
+    "renderer": "llvmpipe (LLVM 21.1.8, 256 bits)",
+    "vendor": "Mesa",
+    "opengl_version": "4.5 (Core Profile) Mesa 26.0.8-1",
+    "glmark2_score": 271,
+    "avg_fps": 272.0,
+    "scenes": {
+      "build_fps": "321",
+      "texture_fps": "491",
+      "terrain_fps": "4"
+    }
+  }
+}

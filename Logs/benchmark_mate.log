@@ -1,0 +1,150 @@
+Estudiantes: ANDRÉS SEBASTIÁN CORAL VALLEJO, JUAN ORJUELA, JAVIER ROSERO, ANGEL ARCOS
+================================================================================
+>>> INICIANDO BENCHMARK PARA EL ENTORNO: MATE
+Timestamp: 2026-10-22 18:07:33
+================================================================================
+
+--- [1] ESTADO DEL SISTEMA EN REPOSO ---
+Memoria Total:       2974 MB
+Memoria Usada:       952 MB
+Memoria Libre:       151 MB
+Memoria Disponible:  2022 MB
+Swap Usado:          7 MB
+Procesos Activos:    244
+Carga Media (1,5,15m): 2.19 3.15 3.33
+
+--- [2] INFORMACIÓN DEL ENTORNO DE ESCRITORIO (FASTFETCH) ---
+..............                                      kali@kali
+            ..,;:ccc,.                              ---------
+          ......''';lxO.                            OS: Kali GNU/Linux Rolling x86_64
+.....''''..........,:ld;                            Host: VirtualBox (1.2)
+           .';;;:::;,,.x,                           Kernel: Linux 6.19.14+kali-amd64
+      ..'''.            0Xxoc:,.  ...               Uptime: 39 mins
+  ....                ,ONkc;,;cokOdc',.             Packages: 3287 (dpkg)
+ .                   OMo           ':ddo.           Shell: bash 5.3.9
+                    dMc               :OO;          Display (Virtual-1): 1920x1043, 60 Hz
+                    0M.                 .:o.        Desktop Environment: Mate 1.28.2
+                    ;Wd                             Window Manager: Marco (X11)
+                     ;XO,                           WM Theme: Menta
+                       ,d0Odlc;,..                  Theme: Fusion [Qt], Menta [GTK2/3/4]
+                           ..',;:cdOOd::,.          Icons: Flat-Remix-Blue-Dark [Qt], menta [GTK2/3/4]
+                                    .:d;.':;.       Font: Cantarell (11pt) [GTK2/3/4]
+                                       'd,  .'      Cursor: mate (24px)
+                                         ;l   ..    Terminal: VBoxService
+                                          .o        CPU: AMD Ryzen 7 260 (2) @ 3.79 GHz
+                                            c       GPU: VMware SVGA II Adapter [Integrated]
+                                            .'      Memory: 952.50 MiB / 2.90 GiB (32%)
+                                             .      Swap: 7.08 MiB / 953.67 MiB (1%)
+                                                    Disk (/): 20.07 GiB / 78.28 GiB (26%) - ext4
+                                                    Local IP (eth0): 10.0.2.15/24
+                                                    Battery (1): 46% [Discharging]
+                                                    Locale: en_US.UTF-8
+                                                    
+                                                    [40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+                                                    [100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+
+--- [3] BENCHMARK DE CPU (SYSBENCH PRIMES 20000 - 2 THREADS) ---
+sysbench 1.0.20 (using system LuaJIT 2.1.1761786044)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  1496.36
+
+General statistics:
+    total time:                          10.0332s
+    total number of events:              15022
+
+Latency (ms):
+         min:                                    0.59
+         avg:                                    1.33
+         max:                                    2.90
+         95th percentile:                        1.86
+         sum:                                19982.67
+
+Threads fairness:
+    events (avg/stddev):           7511.0000/6.00
+    execution time (avg/stddev):   9.9913/0.00
+
+--- [4] INFORMACIÓN DE ACELERACIÓN GRÁFICA (MESA OPENGL) ---
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes
+Extended renderer info (GLX_MESA_query_renderer):
+    Vendor: Mesa (0xffffffff)
+    Device: llvmpipe (LLVM 21.1.8, 256 bits) (0xffffffff)
+    Version: 26.0.8
+    Accelerated: no
+    Video memory: 2974MB
+    Unified memory: yes
+    Preferred profile: core (0x1)
+    Max core profile version: 4.5
+    Max compat profile version: 4.5
+    Max GLES1 profile version: 1.1
+    Max GLES[23] profile version: 3.2
+Memory info (GL_ATI_meminfo):
+    VBO free memory - total: 0 MB, largest block: 0 MB
+    VBO free aux. memory - total: 2025 MB, largest block: 2025 MB
+    Texture free memory - total: 0 MB, largest block: 0 MB
+    Texture free aux. memory - total: 2025 MB, largest block: 2025 MB
+    Renderbuffer free memory - total: 0 MB, largest block: 0 MB
+    Renderbuffer free aux. memory - total: 2025 MB, largest block: 2025 MB
+Memory info (GL_NVX_gpu_memory_info):
+    Dedicated video memory: 0 MB
+    Total available memory: 2974 MB
+    Currently available dedicated video memory: 0 MB
+OpenGL vendor string: Mesa
+OpenGL renderer string: llvmpipe (LLVM 21.1.8, 256 bits)
+OpenGL core profile version string: 4.5 (Core Profile) Mesa 26.0.8-1
+OpenGL core profile shading language version string: 4.50
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 4.5 (Compatibility Profile) Mesa 26.0.8-1
+OpenGL shading language version string: 4.50
+OpenGL context flags: (none)
+OpenGL profile mask: compatibility profile
+
+OpenGL ES profile version string: OpenGL ES 3.2 Mesa 26.0.8-1
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
+
+--- [5] BENCHMARK DE GPU (GLMARK2 SCENES: BUILD, TEXTURE, TERRAIN) ---
+** GLX does not support GLX_EXT_swap_control or GLX_MESA_swap_control!
+** Failed to set swap interval. Results may be bounded above by refresh rate.
+=======================================================
+    glmark2 2023.01
+=======================================================
+    OpenGL Information
+    GL_VENDOR:      Mesa
+    GL_RENDERER:    llvmpipe (LLVM 21.1.8, 256 bits)
+    GL_VERSION:     4.5 (Compatibility Profile) Mesa 26.0.8-1
+    Surface Config: buf=32 r=8 g=8 b=8 a=8 depth=24 stencil=0 samples=0
+    Surface Size:   800x600 windowed
+=======================================================
+** GLX does not support GLX_EXT_swap_control or GLX_MESA_swap_control!
+** Failed to set swap interval. Results may be bounded above by refresh rate.
+[build] duration=2.5: FPS: 254 FrameTime: 3.943 ms
+** GLX does not support GLX_EXT_swap_control or GLX_MESA_swap_control!
+** Failed to set swap interval. Results may be bounded above by refresh rate.
+[texture] duration=2.5: FPS: 503 FrameTime: 1.991 ms
+** GLX does not support GLX_EXT_swap_control or GLX_MESA_swap_control!
+** Failed to set swap interval. Results may be bounded above by refresh rate.
+[terrain] duration=2.5: FPS: 4 FrameTime: 288.158 ms
+=======================================================
+                                  glmark2 Score: 252 
+=======================================================
+
+================================================================================
+>>> BENCHMARK COMPLETADO EXITOSAMENTE PARA: MATE
+Puntaje Glmark2: 252 | FPS Promedio: 253.67 | Sysbench Events/s: 1496.36 | RAM Usada: 952 MB
+Estudiantes: ANDRÉS SEBASTIÁN CORAL VALLEJO, JUAN ORJUELA, JAVIER ROSERO, ANGEL ARCOS
+================================================================================
